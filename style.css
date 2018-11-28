@@ -29,6 +29,11 @@
     padding: 20px;
     margin: 0 auto;
   }
+
+photo-1521800641212-77d98bb90d21.jpeg{
+  height:390px
+
+
   @media (max-width: 500px) {
     h1 {
       font-size: 36px;
