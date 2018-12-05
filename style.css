@@ -28,19 +28,6 @@ header {
     font-family: Georgia
   }
 
-.infoform {
-  margin:auto;
-  width:50%;
-  padding:10px;
-}
-
-.classlist {
-  background-color: white;
-  background-position: center;
-  border-color: black;
-  border-style: solid;
-}
-
   @media (max-width: 500px) {
     h1 {
       font-size: 36px;
@@ -51,3 +38,16 @@ header {
       display: block;
     }
   }
+
+  .imgtestimonials {
+      border-radius: 50%;
+  }
+
+.padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
