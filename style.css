@@ -43,6 +43,12 @@ header {
       border-radius: 50%;
   }
 
+.classlist {
+  background-color: white;
+  border-color: grey;
+  border-style: solid;
+}
+
 .padding {
     padding-top: 30px;
     padding-bottom: 30px;
