@@ -28,6 +28,12 @@ header {
     font-family: Georgia
   }
 
+.infoform {
+  margin:auto;
+  width:50%;
+  padding:10px;
+}
+
   @media (max-width: 500px) {
     h1 {
       font-size: 36px;
