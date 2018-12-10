@@ -46,6 +46,7 @@ header {
 .classlist {
   background-color: white;
   border-color: grey;
+  text-align: center;
   border-style: solid;
 }
 
@@ -57,3 +58,9 @@ header {
     margin-right: auto;
     margin-left: auto;
 }
+
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+.Tooltip('show')
