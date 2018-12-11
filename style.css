@@ -4,6 +4,7 @@ header {
   background-color: black;
   background-size: auto;
   color: white;
+  width: 100%;
 }
   a {
     color: white;
@@ -48,6 +49,34 @@ header {
   border-color: grey;
   border-style: solid;
 }
+
+.footer {
+  width:100%;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.header-image{
+  width:100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("redgloves.jpg");
+
+  /* Set a specific height */
+
+  height: 50vh;
+  width:100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
 
 .padding {
     padding-top: 30px;
