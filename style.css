@@ -108,16 +108,28 @@ p {
     margin-left: auto;
 }
 
-table, th, td {
-  border: 1px solid black;
+table, th, tr, td {
+  border: 2px solid black;
   border-collapse: collapse;
-  table style: "text-align:center;"
 }
 
-th, td {
+table {
+  margin:20; padding:20;
+}
+
+th, tr, td {
   padding: 15px;
 }
 
-th {
+th, tr {
   text-align: left;
+}
+
+th {
+  background-color: #FED2DB;
+  color: black;
+}
+
+
+tr:hover {background-color:#A6A6A6;
 }
