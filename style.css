@@ -11,22 +11,43 @@ header {
   }
   h1 {
     font-size: 70px;
+    font-family: Georgia;
   }
 
   ul {
-    padding: 20px;
-    background: rgba(0,0,0,0.5);
-    font-family: Georgia
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Georgia;
   }
+
   li {
-    display: inline;
-    padding: 0px 40px 0px 40px;
+    float: left;
   }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+p {
+  font-size: 14px
+}
+
   article {
     max-width: 500px;
     padding: 20px;
     margin: 0 auto;
-    font-family: Georgia
+    font-family: Georgia;
   }
 
   @media (max-width: 500px) {
@@ -34,6 +55,7 @@ header {
       font-size: 36px;
       padding: 5px;
     }
+
     li {
       padding: 5px;
       display: block;
@@ -42,6 +64,7 @@ header {
 
   .imgtestimonials {
       border-radius: 50%;
+      font-family: Georgia;
   }
 
 .classlist {
@@ -57,12 +80,12 @@ header {
   text-align: center;
 }
 
-.header-image{
+.header-image {
   width:100%;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("redgloves.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("blackgloves.png");
 
   /* Set a specific height */
 
@@ -76,6 +99,7 @@ header {
   position: relative;
 
 }
+
 
 
 .padding {
