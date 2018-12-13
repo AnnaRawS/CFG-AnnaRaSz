@@ -89,10 +89,17 @@ img {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+  margin-top: 50px
 }
 
 .header-image {
   width:100%;
+}
+
+.classes {
+  font-size: 12px;
+  padding: 5px;
+  background-color: #e0e2e5;
 }
 
 .hero-image {
@@ -109,6 +116,9 @@ img {
   position: relative;
 
 }
+.container {
+  width: 100%
+}
 
 .padding {
     padding-top: 30px;
@@ -119,8 +129,10 @@ img {
     margin-left: auto;
 }
 
+
+
 table, th, tr, td {
-  border: 2px solid black;
+  border: 1px solid grey;
   border-collapse: collapse;
 }
 
