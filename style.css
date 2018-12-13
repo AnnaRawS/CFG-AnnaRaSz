@@ -1,0 +1,164 @@
+
+header {
+  text-align: center;
+  background-color: white;
+  background-size: auto;
+  color: white;
+  width: 100%;
+}
+  a {
+    color: white;
+  }
+
+  a.externallink {
+    color: #FC557C;
+  }
+
+  h1 {
+    font-size: 70px;
+    font-family: Georgia;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Georgia;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+    color: #FC557C
+  }
+
+p {
+  font-size: 14px
+}
+
+  article {
+    max-width: 500px;
+    padding: 50px;
+    margin: 0 auto;
+    font-family: Georgia;
+  }
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+
+    li {
+      padding: 5px;
+      display: block;
+    }
+  }
+
+.imgtestimonials {
+  border-radius: 50%;
+  font-family: Georgia;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.classlist {
+  background-color: white;
+  border-color: grey;
+  text-align: center;
+  border-style: solid;
+}
+
+.footer {
+  width:100%;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  margin-top: 50px
+}
+
+.header-image {
+  width:100%;
+}
+
+.classes {
+  font-size: 12px;
+  padding: 5px;
+  background-color: #e0e2e5;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("blackgloves.png");
+
+  /* Set a specific height */
+  height: 50vh;
+  width:100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.container {
+  width: 100%
+}
+
+.padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+table, th, tr, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+table {
+  margin:20;
+  padding:20;
+}
+
+th, tr, td {
+  padding: 15px;
+}
+
+th, tr {
+  text-align: left;
+}
+
+th {
+  background-color: #FED2DB;
+  color: black;
+}
+
+
+tr:hover {
+  background-color:#A6A6A6;
+}
+
+button {
+  url("index_AboutMe.html")
+}
