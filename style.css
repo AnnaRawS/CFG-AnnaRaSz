@@ -1,31 +1,59 @@
 
 header {
   text-align: center;
-  background-color: black;
+  background-color: white;
   background-size: auto;
   color: white;
+  width: 100%;
 }
   a {
     color: white;
   }
+
+  a.externallink {
+    color: #FC557C;
+  }
+
   h1 {
     font-size: 70px;
+    font-family: Georgia;
   }
 
   ul {
-    padding: 20px;
-    background: rgba(0,0,0,0.5);
-    font-family: Georgia
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Georgia;
   }
+
   li {
-    display: inline;
-    padding: 0px 40px 0px 40px;
+    float: left;
   }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+    color: #FC557C
+  }
+
+p {
+  font-size: 14px
+}
+
   article {
     max-width: 500px;
-    padding: 20px;
+    padding: 50px;
     margin: 0 auto;
-    font-family: Georgia
+    font-family: Georgia;
   }
 
   @media (max-width: 500px) {
@@ -33,21 +61,53 @@ header {
       font-size: 36px;
       padding: 5px;
     }
+
     li {
       padding: 5px;
       display: block;
     }
   }
 
-  .imgtestimonials {
-      border-radius: 50%;
-  }
+.imgtestimonials {
+  border-radius: 50%;
+  font-family: Georgia;
+}
+
+img {
+  border-radius: 50%;
+}
 
 .classlist {
   background-color: white;
   border-color: grey;
   text-align: center;
   border-style: solid;
+}
+
+.footer {
+  width:100%;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.header-image {
+  width:100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("blackgloves.png");
+
+  /* Set a specific height */
+  height: 50vh;
+  width:100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
 }
 
 .padding {
@@ -59,8 +119,30 @@ header {
     margin-left: auto;
 }
 
-  $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+table, th, tr, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
 
-.Tooltip('show')
+table {
+  margin:20;
+  padding:20;
+}
+
+th, tr, td {
+  padding: 15px;
+}
+
+th, tr {
+  text-align: left;
+}
+
+th {
+  background-color: #FED2DB;
+  color: black;
+}
+
+
+tr:hover {
+  background-color:#A6A6A6;
+}
